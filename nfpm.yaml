@@ -1,0 +1,21 @@
+# nfpm configuration file for pikchr
+#
+# check https://nfpm.goreleaser.com/configuration for detailed usage
+#
+name: "pikchr"
+arch: "amd64"
+platform: "linux"
+version: "0.20230508.0"
+release: "1hnakamur1ubuntu22.04"
+section: "graphics"
+priority: "optional"
+maintainer: "Hiroaki Nakamura <hnakamur@gmail.com>"
+description: |
+ converter for a Pikchr markup language file to a SVG file.
+homepage: "https://github.com/hnakamur/pikchr-deb"
+license: "0BSD"
+changelog: "changelog.yaml"
+contents:
+- src: ./usr/bin/pikchr
+  dst: /usr/bin/
+# overrides/deb/depends will be added during build.

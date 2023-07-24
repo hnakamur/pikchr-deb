@@ -1,0 +1,15 @@
+- deb:
+    urgency: medium
+    distributions:
+      - jammy
+  # https://pikchr.org/home/file/pikchr.c?ci=trunk
+  # https://pikchr.org/home/info/da1b3e3f2126776a4ebb4a1acd5ec2b943d263a6e3c5bde257a9668cc1fe9a86
+  # File pikchr.c — part of check-in [03664a38cf] at 2023-05-18 16:57:56 on branch trunk
+  semver: "0.20230508.0-1hnakamur1ubuntu22.04"
+  date: "2023-07-24T17:16:00+09:00"
+  packager: "Hiroaki Nakamura <hnakamur@gmail.com>"
+  urgency: "medium"
+  distribution: "stable"
+  changes:
+    - note: "New upstream release."
+

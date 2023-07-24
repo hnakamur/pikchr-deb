@@ -1,0 +1,15 @@
+Source: pikchr
+Section: doc
+Priority: optional
+Maintainer: Hiroaki Nakamura <hnakamur@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.5.0
+Homepage: https://pikchr.org/home/doc/trunk/homepage.md
+Vcs-Browser: https://github.com/hnakamur/pikchr-deb
+Vcs-Git: https://github.com/hnakamur/pikchr-deb.git
+
+Package: pikchr
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description:  converter for a Pikchr markup language file to a SVG file.
